@@ -34,8 +34,7 @@ jobs:
 
       - name: Build
         run: |
-          yarn build
-          run: yarn build && echo "docs.ejunz.com" >./.vuepress/dist/CNAME
+          yarn build && echo "docs.ejunz.com" >./.vuepress/dist/CNAME
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
