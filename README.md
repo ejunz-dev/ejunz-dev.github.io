@@ -1,4 +1,4 @@
-# Welcome to Ejunz Documentation
+# Ejunz Documentation
 
-- [English Documentation](./en/)
-- [中文文档](./zh/)
+- [English](./en/docs)
+- [中文](./zh/docs)
