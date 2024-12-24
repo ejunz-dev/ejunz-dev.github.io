@@ -4,7 +4,9 @@
 
 ## 深度学习生产管道（due：1/7 ）
 - [x] 配置新的环境并部署Questgen（测试是否可以实现各领域生产服务）12-23.
-- [ ] 将Questgen做成api接入到ejunz 12-24.
+- [x] 将Questgen做成api 12-24
+- [ ] 接入到Ejunz，实现ui-gen功能 
+
 
 
 
