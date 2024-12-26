@@ -101,6 +101,12 @@ export default defineUserConfig({
           { text: 'API', link: '/api/' },
           { text: '插件', link: '/plugins/' },
         ],
+        hostname: 'https://docs.ejunz.com',
+        repo: 'ejunz-dev/Ejunz',
+        pageInfo: false,
+        docsRepo: 'ejunz-dev/ejunz-dev.github.io',
+        docsBranch: 'docs',
+        editLink: true,
         sidebar: {
           '/zh/docs': [
             {
