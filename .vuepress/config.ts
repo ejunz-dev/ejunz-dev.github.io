@@ -1,6 +1,8 @@
 import { defineUserConfig } from 'vuepress';
 import { hopeTheme } from 'vuepress-theme-hope';
 import { webpackBundler } from '@vuepress/bundler-webpack';
+import { shikiPlugin } from "@vuepress/plugin-shiki";
+
 
 export default defineUserConfig({
   locales: {
@@ -17,7 +19,13 @@ export default defineUserConfig({
       home: '/zh/docs/',
     },
   },
+  
   bundler: webpackBundler(),
+  plugins: [
+    shikiPlugin({
+        theme: "nord",
+    }),
+],
   host: '0.0.0.0',
   port: 3333,
   theme: hopeTheme({
@@ -33,6 +41,39 @@ export default defineUserConfig({
           { text: 'API', link: '/api/' },
           { text: 'Plugins', link: '/plugins/' },
         ],
+        plugins: {
+          activeHeaderLinks: true,
+          prismjs: false,
+          copyright: false,
+          copyCode: {},
+          mdEnhance: {
+              align: true,
+              sup: true,
+              sub: true,
+              footnote: true,
+              katex: true,
+          },
+          searchPro: {
+              indexContent: true,
+              customFields: [],
+              locales: {
+                  '/': {
+                      cancel: "取消",
+                      placeholder: "搜索",
+                      search: "搜索",
+                      searching: "搜索中",
+                      select: "选择",
+                      navigate: "切换",
+                      exit: "关闭",
+                      history: "搜索历史",
+                      emptyHistory: "无搜索历史",
+                      emptyResult: "没有找到结果",
+                      loading: "正在加载搜索索引...",
+                  },
+              }
+          }
+      },
+
         hostname: 'https://docs.ejunz.com',
         repo: 'ejunz-dev/Ejunz',
         pageInfo: false,
