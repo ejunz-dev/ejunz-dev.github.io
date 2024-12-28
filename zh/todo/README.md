@@ -19,9 +19,9 @@
 - [x] 实现json序列化和ui展示 12-26
 - [x] 实现将系列化后json push到数据库中 12-27
 - [x] 配置domian和docid，实现文档隔离 12-27
-- [ ] 实现暂存区的json完整化字doc字段生成与ui-list展示（mcq）
-- [ ] 实现暂存区的curd
-- [ ] 实现暂存区的publish到题库
+- [x] 实现暂存区的json完整化字doc字段生成与ui-list展示（mcq）12-28
+- [ ] 实现暂存区的publish到题库 
+- [ ] 实现暂存区的curd 
 - [ ] 实现题库的curd
 - [ ] 
 ## 团队迭代中心
