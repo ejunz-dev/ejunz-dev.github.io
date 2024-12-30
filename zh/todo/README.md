@@ -9,6 +9,7 @@
 - [ ] 搭建onnx-api实现输出onnx微调模型并更新到hugging face hub
 - [ ] Cloudflare推理中心拉取对应版本模型进行生产
 - [ ] Ejunz上实现web完全控制微调和生产以及对应ui
+- [ ] judge实现ai接入，可以判部分主观题（辅助理解学习
 
 ## 题目消费流程
 - [x] 配置新的环境并部署Questgen（测试是否可以实现各领域生产服务）12-23.
