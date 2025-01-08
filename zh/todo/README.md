@@ -1,7 +1,7 @@
 # 计划
 
 以下是当前的任务列表：
-doing：流程化杂项（crud和权限注册等等）；lib中训练比赛等引用 @[training]()，
+doing：流程化杂项（crud和权限注册等等）；lib中训练比赛等引用 @[training]()，；资料页的issue和版本控制
 
 ## 深度学习生产管道
 - [x] 部署将Questgen库 12-23
