@@ -92,7 +92,7 @@ doing： 切换模型（中文/英文/特殊领域）；repo的权限分配？�
 # 森林计划
 - [x] 实现一个branch引用lid和rid生成链接 1-16
 - [x] 实现新增branch（子母）1-16
-- [ ] 实现tree- branch的crud 1-17
+- [x] 实现tree- branch的crud 1-17
 - [ ] 实现树里面的小地图map和urlmap
 - [ ] 实现总的树查询
         
