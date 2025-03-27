@@ -4,9 +4,11 @@
 doing： 切换模型（中文/英文/特殊领域）；repo的权限分配？；lib中训练比赛等引用 @[training]()，；
 
 ## 接入包管理器
-- [] Nix
+- [x] Nix
 
-## 
+## 接入koishi
+
+## 接入prometheus&grafana
 
 
 ## repohub
