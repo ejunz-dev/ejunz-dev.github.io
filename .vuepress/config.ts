@@ -33,13 +33,15 @@ export default defineUserConfig({
       '/en/': {
         navbar: [
           { text: 'Documentation', link: '/en/docs/' },
-          { text: 'FAQ', link: '/FAQ/' },
-          { text: 'Upgrade Guide', link: '/FAQ/upgrade' },
-          { text: 'Debugging Guide', link: '/FAQ/debug' },
-          { text: 'Tutorials', link: 'https://ejunz.com/d/faqs/p' },
-          { text: 'Development', link: '/dev/' },
-          { text: 'API', link: '/api/' },
-          { text: 'Plugins', link: '/plugins/' },
+          { text: 'Domains', link: '/en/domains/'},
+          
+          // { text: 'FAQ', link: '/FAQ/' },
+          // { text: 'Upgrade Guide', link: '/FAQ/upgrade' },
+          // { text: 'Debugging Guide', link: '/FAQ/debug' },
+          // { text: 'Tutorials', link: 'https://ejunz.com/d/faqs/p' },
+          // { text: 'Development', link: '/dev/' },
+          // { text: 'API', link: '/api/' },
+          // { text: 'Plugins', link: '/plugins/' },
         ],
         plugins: {
           activeHeaderLinks: true,
@@ -92,14 +94,16 @@ export default defineUserConfig({
       '/zh/': {
         navbar: [
           { text: '文档', link: '/zh/docs/' },
-          { text: '计划', link: '/zh/todo/'},
-          { text: '常见问题解答', link: '/FAQ/' },
-          { text: '升级指南', link: '/FAQ/upgrade' },
-          { text: '排障指南', link: '/FAQ/debug' },
-          { text: '常用教程', link: 'https://ejunz.com/d/faqs/p' },
-          { text: '开发', link: '/dev/' },
-          { text: 'API', link: '/api/' },
-          { text: '插件', link: '/plugins/' },
+          { text: '域', link: '/zh/domains/'},
+
+          // { text: '计划', link: '/zh/todo/'},
+          // { text: '常见问题解答', link: '/FAQ/' },
+          // { text: '升级指南', link: '/FAQ/upgrade' },
+          // { text: '排障指南', link: '/FAQ/debug' },
+          // { text: '常用教程', link: 'https://ejunz.com/d/faqs/p' },
+          // { text: '开发', link: '/dev/' },
+          // { text: 'API', link: '/api/' },
+          // { text: '插件', link: '/plugins/' },
         ],
         hostname: 'https://docs.ejunz.com',
         repo: 'ejunz-dev/Ejunz',
