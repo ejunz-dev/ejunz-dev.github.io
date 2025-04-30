@@ -17,6 +17,6 @@ features:
   - title: Community Driven
     details: Open source and supported by an active community.
   - title: 🌐 Language
-    details: Choose your language: [English](/en/entry) / [中文](/zh/entry)
+    details: "Choose your language: [English](/en/entry) / [中文](/zh/entry)"
 footer: Built by [Jacka10086](https://github.com/Jacka10086)
 ---
