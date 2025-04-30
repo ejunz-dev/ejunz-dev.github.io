@@ -1,6 +1,6 @@
 ---
 home: true
-title: 欢迎来到 Ejunz 文档
+title: 易君Ejunz 文档
 heroImage: /images/logo.png
 actions:
   - text: 开始使用 →

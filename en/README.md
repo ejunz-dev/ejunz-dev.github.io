@@ -1,6 +1,6 @@
 ---
 home: true
-title: Welcome to Ejunz Documentation
+title: Ejunz Docs
 heroImage: /images/logo.png
 actions:
   - text: Get Started →
