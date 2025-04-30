@@ -226,11 +226,11 @@ export default defineUserConfig({
               children: [
                 {
                 text: '前言', 
-                link: '/zh/domains/1.1-ahead', 
+                link: '/zh/domain_docs/1.1-ahead', 
                 },
                 {
                   text: '规则', 
-                  link: '/zh/domains/1.2-rules', 
+                  link: '/zh/domain_docs/1.2-rules', 
                   },
               ],
             },
@@ -239,11 +239,11 @@ export default defineUserConfig({
               children: [
                 {
                 text: 'counter-strike',
-                link: '/zh/domains/A001',
+                link: '/zh/domain_docs/A001',
                 },
                 {
                   text: 'I-Ching', 
-                  link: '/zh/domains/A002',
+                  link: '/zh/domain_docs/A002',
                   },
               ],
           },
