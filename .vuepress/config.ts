@@ -100,10 +100,186 @@ export default defineUserConfig({
           '/en/entry': [
             {
               text: 'Overview',
-              children: ['/en/entry/README.md'],
+              children: [
+                {
+                  text: 'Preface',
+                  link: '/en/entry/1.1-ahead',
+                },
+                {
+                  text: 'Architecture',
+                  link: '/en/entry/1.2-framework',
+                },
+              ],
+            },
+            {
+              text: 'Startup',
+              children: [
+                {
+                  text: 'Parameters',
+                  link: '/en/entry/install',
+                }
+              ],
             },
           ],
-        },
+          '/en/user_manual': [
+            {
+              text: 'Overview',
+              children: [
+                {
+                  text: 'Preface',
+                  link: '/en/user_manual/1.1-entry',
+                },
+              ],
+            },
+            {
+              text: 'User Security',
+              children: [
+                {
+                  text: 'Security Settings',
+                  link: '/en/user_manual/1.2-security',
+                },
+              ],
+            },
+          ],
+          '/en/moderator_manual': [
+            {
+              text: 'Overview',
+              children: [
+                {
+                  text: 'Preface',
+                  link: '/en/moderator_manual/1.1-entry',
+                },
+              ],
+            },
+            {
+              text: 'Permission Configuration',
+              children: [
+                {
+                  text: 'Permissions',
+                  link: '/en/moderator_manual/1.2-perm',
+                },
+              ],
+            },
+          ],
+          '/en/developer_manual': [
+            {
+              text: 'Overview',
+              children: [
+                {
+                  text: 'Preface',
+                  link: '/en/developer_manual/1.1-entry',
+                },
+              ],
+            },
+            {
+              text: 'Non-core Development',
+              children: [
+                {
+                  text: 'Plugin Development',
+                  link: '/en/developer_manual/1.2-plugin',
+                },
+                {
+                  text: 'Space Development',
+                  link: '/en/developer_manual/1.3-space',
+                },
+              ],
+            },
+          ],
+          '/en/system_docs': [
+            {
+              text: 'Overview',
+              children: [
+                {
+                  text: 'Preface',
+                  link: '/en/system_docs/1.1-ahead',
+                },
+                {
+                  text: 'Structure',
+                  link: '/en/system_docs/1.2-framework',
+                },
+              ],
+            },
+            {
+              text: 'System Security',
+              children: [
+                {
+                  text: 'Two-Factor Authentication',
+                  link: '/en/system_docs/2FA',
+                },
+              ],
+            },
+          ],
+          '/en/domain_docs': [
+            {
+              text: 'Overview',
+              children: [
+                {
+                  text: 'Preface',
+                  link: '/en/domain_docs/1.1-ahead',
+                },
+                {
+                  text: 'Rules',
+                  link: '/en/domain_docs/1.2-rules',
+                },
+              ],
+            },
+            {
+              text: 'Official Domains',
+              children: [
+                {
+                  text: 'counter-strike',
+                  link: '/en/domain_docs/A001',
+                },
+                {
+                  text: 'I-Ching',
+                  link: '/en/domain_docs/A002',
+                },
+              ],
+            },
+            {
+              text: 'Certified Domains',
+              children: [
+                // {
+                // text: 'counter-strike',
+                // link: '/en/entry/A001',
+                // },
+                // {
+                //   text: 'I-Ching',
+                //   link: '/en/entry/A002',
+                // },
+              ],
+            },
+          ],
+          '/en/plugin_docs': [
+            {
+              text: 'Overview',
+              children: [
+                {
+                  text: 'Preface',
+                  link: '/en/plugin_docs/1.1-ahead',
+                },
+                {
+                  text: 'Structure',
+                  link: '/en/plugin_docs/1.2-framework',
+                },
+              ],
+            },
+            {
+              text: 'Development',
+              children: [
+                {
+                  text: 'Plugin Development',
+                  link: '/en/plugin_docs/plugin',
+                },
+                {
+                  text: 'Space Development',
+                  link: '/en/plugin_docs/space',
+                },
+              ],
+            },
+          ],
+        }
+        
       },
       '/zh/': {
         navbar: [
