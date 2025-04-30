@@ -34,6 +34,7 @@ export default defineUserConfig({
         navbar: [
           { text: 'Entry', link: '/en/entry/' },
           { text: 'User Manual', link: '/en/user_manual/'},
+          { text: 'Moderator Manual', link: '/en/moderator_manual/'},
           { text: 'Developer Manual', link: '/en/developer_manual/'},
           { text: 'Domain Docs', link: '/en/domain_docs/'},
           { text: 'System Docs', link: '/en/system_docs/'},
@@ -99,6 +100,7 @@ export default defineUserConfig({
         navbar: [
           { text: '入门', link: '/zh/entry/' },
           { text: '用户手册', link: '/zh/user_manual/'},
+          { text: '管理员手册', link: '/zh/moderator_manual/'},
           { text: '开发者手册', link: '/zh/developer_manual/'},
           { text: '域文档', link: '/zh/domain_docs/'},
           { text: '系统文档', link: '/zh/system_docs/'},
