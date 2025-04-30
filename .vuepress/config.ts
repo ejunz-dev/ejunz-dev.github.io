@@ -179,13 +179,13 @@ export default defineUserConfig({
               ],
           },
           ],
-          '/zh/developer_manual': [
+          '/zh/moderator_manual': [
             {
               text: '总览',
               children: [
                 {
                 text: '前言', 
-                link: '/zh/develop_manual/1.1-entry', 
+                link: '/zh/moderator_manual/1.1-entry', 
                 },
               ],
             },
@@ -194,8 +194,32 @@ export default defineUserConfig({
               children: [
                 {
                 text: '权限',
-                link: '/zh/develop_manual/1.2-perm',
+                link: '/zh/moderator_manual/1.2-perm',
                 },
+              ],
+          },
+          ],
+          '/zh/developer_manual': [
+            {
+              text: '总览',
+              children: [
+                {
+                text: '前言', 
+                link: '/zh/developer_manual/1.1-entry', 
+                },
+              ],
+            },
+            {
+              text: '非核心开发',
+              children: [
+                {
+                text: '插件开发',
+                link: '/zh/developer_manual/1.2-plugin',
+                },
+                {
+                  text: '空间开发',
+                  link: '/zh/developer_manual/1.3-space',
+                  },
               ],
           },
           ],
