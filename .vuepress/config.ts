@@ -220,6 +220,31 @@ export default defineUserConfig({
               ],
           },
           ],
+          '/zh/system_docs': [
+            {
+              text: '总览',
+              children: [
+                {
+                text: '前言', 
+                link: '/zh/system_docs/1.1-ahead', 
+                },
+                {
+                  text: '结构', 
+                  link: '/zh/system_docs/1.2-framework', 
+                  },
+              ],
+            },
+            {
+              text: '系统安全',
+              children: [
+                {
+                text: '二步验证',
+                link: '/zh/system_docs/2FA',
+                },
+              ],
+          },
+
+          ],
           '/zh/domain_docs': [
             {
               text: '总览',
@@ -261,7 +286,7 @@ export default defineUserConfig({
             ],
         },
 
-          ]
+          ],
         },
       },
     },
