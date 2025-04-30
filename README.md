@@ -4,10 +4,10 @@ title: 易君 · Ejunz - make things easy.
 heroImage: /images/logo.png
 actions:
   - text: 开始 →
-    link: /zh/
+    link: /zh/entry
     type: primary
   - text: Get Started →
-    link: /en/
+    link: /en/entry
     type: primary
 features:
   - title: 高度可扩展
