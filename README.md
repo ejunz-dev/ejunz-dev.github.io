@@ -3,11 +3,11 @@ home: true
 title: 易君 · Ejunz - make things easy.
 heroImage: /images/logo.png
 actions:
-  - text: Get Started →
-    link: /en/
-    type: primary
   - text: 开始 →
     link: /zh/
+    type: primary
+  - text: Get Started →
+    link: /en/
     type: primary
 features:
   - title: 高度可扩展

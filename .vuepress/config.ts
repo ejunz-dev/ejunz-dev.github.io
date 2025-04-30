@@ -8,8 +8,8 @@ export default defineUserConfig({
   locales: {
     '/': {
       lang: 'en-US',
-      title: '易君Ejunz',
-      description: '欢迎使用 易君Ejunz 文档 · Welcome to the Ejunz Docs',
+      title: '易君 · Ejunz',
+      description: 'Make Things easy',
       home: '/',
     },
     '/en/': {
