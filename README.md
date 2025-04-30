@@ -1,7 +1,5 @@
 ---
 home: true
-title: Welcome to Ejunz Documentation
-description: 欢迎使用 易君Ejunz 文档 · Welcome to the Ejunz Docs
 heroImage: /images/logo.png
 actions:
   - text: 开始 →
