@@ -10,17 +10,30 @@ actions:
     link: /zh/
     type: primary
 features:
-  - title: Modular Design
-    details: Ejunz is built with modularity in mind, enabling you to scale your project with ease.
-  - title: Developer-Friendly
-    details: Built for JavaScript and TypeScript developers with powerful tools and guides.
+  - title: 高度可扩展
+    details: 插件化架构，支持灵活集成各类功能模块，满足多样化业务场景需求。
+
+  - title: 灵活可配置
+    details: 通过简洁配置即可自定义功能与页面，无需改动代码即可快速适配不同领域业务需求。
+
+  - title: 起步友好
+    details: 易君官方提供大量定制好的插件，方便各类用户直接使用。
+
+  - title: 社区共建
+    details: 拥有丰富的官方与社区生态，易君官方面向社区提供了多个领域的业务域，方便社区各类用户理解易君体系。
+    
+  - title: Highly Extensible
+    details: Modular plugin architecture enables flexible integration of various functional components, meeting diverse business needs.
+
+  - title: Easily Configurable
+    details: Customize features and pages through simple configurations — no coding required, making it easy to adapt to different domains.
+
+  - title: Beginner-Friendly
+    details: Ejunz provides a wide range of pre-configured plugins to help all kinds of users get started quickly.
+
   - title: Community-Driven
-    details: Open-source and supported by an active community.
-  - title: 模块化设计
-    details: Ejunz 采用模块化设计，让您的项目更易扩展。
-  - title: 面向开发者
-    details: 专为 JavaScript 和 TypeScript 开发者设计，提供强大的工具和指南。
-  - title: 社区驱动
-    details: 开源项目，拥有活跃的社区支持。
+    details: Powered by a rich ecosystem of official and community plugins. Ejunz offers multiple domain-oriented solutions to help users understand and adopt the platform more easily.
+
+
 footer: Jacka10086
 ---
