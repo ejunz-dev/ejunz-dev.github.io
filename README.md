@@ -1,22 +1,14 @@
 ---
 home: true
 title: Welcome to Ejunz Documentation
+description: 欢迎使用 易君Ejunz 文档 · Welcome to the Ejunz Docs
 heroImage: /images/logo.png
 actions:
-  - text: Get Started →
-    link: /en/docs/
+  - text: 开始 →
+    link: /zh/
     type: primary
-  - text: 常见问题（FAQ）
-    link: /FAQ/
-    type: secondary
-features:
-  - title: Modular Design
-    details: Ejunz adopts a modular design for easy project scalability.
-  - title: Developer Oriented
-    details: Built for JavaScript and TypeScript developers, with powerful tools and guides.
-  - title: Community Driven
-    details: Open source and supported by an active community.
-  - title: 🌐 Language
-    details: "Choose your language: [English](/en/entry) / [中文](/zh/entry)"
-footer: Built by [Jacka10086](https://github.com/Jacka10086)
+  - text: Get Started →
+    link: /en/
+    type: primary
+footer: Built by Jacka10086
 ---
