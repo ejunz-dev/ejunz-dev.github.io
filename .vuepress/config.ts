@@ -6,6 +6,12 @@ import { shikiPlugin } from "@vuepress/plugin-shiki";
 
 export default defineUserConfig({
   locales: {
+    '/': {
+      lang: 'en-US',
+      title: 'Ejunz',
+      description: 'The documentation for Ejunz',
+      home: '/',
+    },
     '/en/': {
       lang: 'en-US',
       title: 'Ejunz',
