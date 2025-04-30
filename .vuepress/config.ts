@@ -10,13 +10,13 @@ export default defineUserConfig({
       lang: 'en-US',
       title: 'Ejunz Documentation',
       description: 'The documentation for Ejunz',
-      home: '/en/docs/',
+      home: '/en/entry/',
     },
     '/zh/': {
       lang: 'zh-CN',
       title: 'Ejunz 文档',
       description: 'Ejunz 的文档',
-      home: '/zh/docs/',
+      home: '/zh/entry/',
     },
   },
   
@@ -32,7 +32,7 @@ export default defineUserConfig({
     locales: {
       '/en/': {
         navbar: [
-          { text: 'Documentation', link: '/en/docs/' },
+          { text: 'Entry', link: '/en/entry/' },
           { text: 'Domains', link: '/en/domains/'},
           
           // { text: 'FAQ', link: '/FAQ/' },
@@ -83,17 +83,17 @@ export default defineUserConfig({
         docsBranch: 'docs',
         editLink: true,
         sidebar: {
-          '/en/docs': [
+          '/en/entry': [
             {
               text: 'Overview',
-              children: ['/en/docs/README.md'],
+              children: ['/en/entry/README.md'],
             },
           ],
         },
       },
       '/zh/': {
         navbar: [
-          { text: '文档', link: '/zh/docs/' },
+          { text: '文档', link: '/zh/entry/' },
           { text: '域', link: '/zh/domains/'},
 
           // { text: '计划', link: '/zh/todo/'},
@@ -112,17 +112,17 @@ export default defineUserConfig({
         docsBranch: 'docs',
         editLink: true,
         sidebar: {
-          '/zh/docs': [
+          '/zh/entry': [
             {
               text: '总览',
-              children: ['/zh/docs/'],
+              children: ['/zh/entry/'],
             },
             {
               text: '部署',
               children: [
                 {
                 text: '部署Ejunz', // 显示的标题
-                link: '/zh/docs/install/', // 对应的路径
+                link: '/zh/entry/install/', // 对应的路径
                 }
               ],
           },
