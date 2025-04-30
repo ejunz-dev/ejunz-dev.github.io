@@ -1,4 +1,4 @@
 # Ejunz Documentation
 
-- [English](./en/docs)
-- [中文](./zh/docs)
+- [English](./en/entry)
+- [中文](./zh/entry)
