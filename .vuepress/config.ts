@@ -153,12 +153,54 @@ export default defineUserConfig({
               text: '启动',
               children: [
                 {
-                text: '参数', // 显示的标题
-                link: '/zh/entry/install', // 对应的路径
+                text: '参数',
+                link: '/zh/entry/install',
                 }
               ],
           },
           ],
+          '/zh/domains': [
+            {
+              text: '总览',
+              children: [
+                {
+                text: '前言', 
+                link: '/zh/domains/1.1-ahead', 
+                },
+                {
+                  text: '规则', 
+                  link: '/zh/domains/1.2-rules', 
+                  },
+              ],
+            },
+            {
+              text: '官方域',
+              children: [
+                {
+                text: 'counter-strike',
+                link: '/zh/domains/A001',
+                },
+                {
+                  text: 'I-Ching', 
+                  link: '/zh/domains/A002',
+                  },
+              ],
+          },
+          {
+            text: '认证域',
+            children: [
+              // {
+              // text: 'counter-strike',
+              // link: '/zh/entry/A001',
+              // },
+              // {
+              //   text: 'I-Ching', 
+              //   link: '/zh/entry/A002',
+              //   },
+            ],
+        },
+
+          ]
         },
       },
     },
