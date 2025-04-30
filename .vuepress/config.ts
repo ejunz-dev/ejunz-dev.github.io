@@ -39,6 +39,8 @@ export default defineUserConfig({
           { text: 'Domain Docs', link: '/en/domain_docs/'},
           { text: 'System Docs', link: '/en/system_docs/'},
           { text: 'Domains', link: '/en/domains/'},
+          { text: 'Spaces', link: '/en/spaces/'},
+          { text: 'Plugins', link: '/en/plugins/'},
           
           // { text: 'FAQ', link: '/FAQ/' },
           // { text: 'Upgrade Guide', link: '/FAQ/upgrade' },
@@ -105,6 +107,8 @@ export default defineUserConfig({
           { text: '域文档', link: '/zh/domain_docs/'},
           { text: '系统文档', link: '/zh/system_docs/'},
           { text: '域', link: '/zh/domains/'},
+          { text: '空间', link: '/zh/spaces/'},
+          { text: '插件', link: '/zh/plugins/'},
 
           // { text: '计划', link: '/zh/todo/'},
           // { text: '常见问题解答', link: '/FAQ/' },
