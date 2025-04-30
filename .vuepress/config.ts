@@ -287,6 +287,35 @@ export default defineUserConfig({
         },
 
           ],
+          '/zh/plugin_docs': [
+            {
+              text: '总览',
+              children: [
+                {
+                text: '前言', 
+                link: '/zh/plugin_docs/1.1-ahead', 
+                },
+                {
+                  text: '结构', 
+                  link: '/zh/plugin_docs/1.2-framework', 
+                  },
+              ],
+            },
+            {
+              text: '开发',
+              children: [
+                {
+                text: '插件开发',
+                link: '/zh/plugin_docs/plugin',
+                },
+                {
+                  text: '空间开发',
+                  link: '/zh/plugin_docs/space',
+                  },
+              ],
+          },
+
+          ],
         },
       },
     },
