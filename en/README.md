@@ -4,7 +4,7 @@ title: Welcome to Ejunz Documentation
 heroImage: /images/logo.png
 actions:
   - text: Get Started →
-    link: /en/docs/
+    link: /en/entry/
     type: primary
   - text: FAQ
     link: /FAQ/

@@ -4,7 +4,7 @@ title: 欢迎来到 Ejunz 文档
 heroImage: /images/logo.png
 actions:
   - text: 开始使用 →
-    link: /zh/docs/
+    link: /zh/entry/
     type: primary
   - text: 常见问题
     link: /FAQ/
