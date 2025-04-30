@@ -113,7 +113,7 @@ export default defineUserConfig({
           { text: '开发者手册', link: '/zh/developer_manual/'},
           { text: '系统文档', link: '/zh/system_docs/'},
           { text: '域文档', link: '/zh/domain_docs/'},
-          { text: '插件文档', link: '/zh/domain_docs/'},
+          { text: '插件文档', link: '/zh/plugin_docs/'},
 
 
           // { text: '计划', link: '/zh/todo/'},
