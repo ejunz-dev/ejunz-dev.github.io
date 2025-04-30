@@ -159,6 +159,26 @@ export default defineUserConfig({
               ],
           },
           ],
+          '/zh/user_manual': [
+            {
+              text: '总览',
+              children: [
+                {
+                text: '前言', 
+                link: '/zh/user_manual/1.1-entry', 
+                },
+              ],
+            },
+            {
+              text: '用户安全',
+              children: [
+                {
+                text: '安全设置',
+                link: '/zh/user_manual/1.2-security',
+                },
+              ],
+          },
+          ],
           '/zh/domains': [
             {
               text: '总览',
