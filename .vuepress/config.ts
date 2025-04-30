@@ -138,14 +138,14 @@ export default defineUserConfig({
           '/zh/entry': [
             {
               text: '总览',
-              children: ['/zh/entry/'],
+              children: ['/zh/entry/ahead'],
             },
             {
               text: '部署',
               children: [
                 {
                 text: '部署Ejunz', // 显示的标题
-                link: '/zh/entry/install/', // 对应的路径
+                link: '/zh/entry/install', // 对应的路径
                 }
               ],
           },
