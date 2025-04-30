@@ -8,14 +8,14 @@ export default defineUserConfig({
   locales: {
     '/en/': {
       lang: 'en-US',
-      title: 'Ejunz Documentation',
+      title: 'Ejunz',
       description: 'The documentation for Ejunz',
       home: '/en/entry/',
     },
     '/zh/': {
       lang: 'zh-CN',
-      title: 'Ejunz 文档',
-      description: 'Ejunz 的文档',
+      title: '易君(Ejunz) 文档',
+      description: '易君(Ejunz) 的文档',
       home: '/zh/entry/',
     },
   },
