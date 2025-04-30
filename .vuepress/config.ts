@@ -45,11 +45,9 @@ export default defineUserConfig({
           { text: 'User Manual', link: '/en/user_manual/'},
           { text: 'Moderator Manual', link: '/en/moderator_manual/'},
           { text: 'Developer Manual', link: '/en/developer_manual/'},
-          { text: 'Domain Docs', link: '/en/domain_docs/'},
           { text: 'System Docs', link: '/en/system_docs/'},
-          { text: 'Domains', link: '/en/domains/'},
-          { text: 'Spaces', link: '/en/spaces/'},
-          { text: 'Plugins', link: '/en/plugins/'},
+          { text: 'Domain Docs', link: '/en/domain_docs/'},
+          { text: 'Plugin Docs', link: '/en/plugin_docs/'},
           
           // { text: 'FAQ', link: '/FAQ/' },
           // { text: 'Upgrade Guide', link: '/FAQ/upgrade' },
@@ -113,11 +111,10 @@ export default defineUserConfig({
           { text: '用户手册', link: '/zh/user_manual/'},
           { text: '管理员手册', link: '/zh/moderator_manual/'},
           { text: '开发者手册', link: '/zh/developer_manual/'},
-          { text: '域文档', link: '/zh/domain_docs/'},
           { text: '系统文档', link: '/zh/system_docs/'},
-          { text: '域', link: '/zh/domains/'},
-          { text: '空间', link: '/zh/spaces/'},
-          { text: '插件', link: '/zh/plugins/'},
+          { text: '域文档', link: '/zh/domain_docs/'},
+          { text: '插件文档', link: '/zh/domain_docs/'},
+
 
           // { text: '计划', link: '/zh/todo/'},
           // { text: '常见问题解答', link: '/FAQ/' },
@@ -223,7 +220,7 @@ export default defineUserConfig({
               ],
           },
           ],
-          '/zh/domains': [
+          '/zh/domain_docs': [
             {
               text: '总览',
               children: [
