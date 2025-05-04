@@ -2,6 +2,16 @@
 
 This documentation is designed to follow a progressive learning path. Ideally, all users should start by learning and using Ejunz from the user perspective. As their experience and understanding grow, they can gradually advance to roles such as Domain Manager, then Cluster Manager and Domain Leader, and eventually explore in-depth development and customization of Ejunz.
 
+# Entry Points for Different User Needs
+
+- Want to join existing domains: **User Manual** + **Domain Docs**
+- Want to manage existing domains: **Moderator Manual**
+- Want to create and manage your own domain: **Moderator Manual**
+- Want to develop plugins and customize your domain: **Developer Manual**
+- Want to contribute to core code: **Developer Manual**
+- Want to deploy Ejunz on your own: **Developer Manual**
+- Want to deeply develop or customize Ejunz: **Developer Manual**
+
 # Overview of Roles in the Ejunz Ecosystem
 
 Each role in the Ejunz ecosystem has distinct responsibilities and contributes collaboratively to the system's operation. The following table outlines the main responsibilities, permission scopes, and relative difficulty levels to facilitate understanding and role distribution.
