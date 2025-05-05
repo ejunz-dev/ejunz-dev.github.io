@@ -441,10 +441,6 @@ export default defineUserConfig({
                 text: 'counter-strike',
                 link: '/zh/domain_docs/A001',
                 },
-                {
-                  text: 'I-Ching', 
-                  link: '/zh/domain_docs/A002',
-                  },
               ],
           },
           {
@@ -460,6 +456,15 @@ export default defineUserConfig({
               //   },
             ],
         },
+        {
+          text: '计划搭建',
+          children: [
+            {
+              text: '计划', 
+              link: '/zh/domain_docs/plan',
+              },
+          ],
+      },
 
           ],
           '/zh/plugin_docs': [
