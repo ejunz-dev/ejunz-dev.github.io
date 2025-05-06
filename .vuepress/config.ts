@@ -482,6 +482,41 @@ export default defineUserConfig({
               ],
             },
             {
+              text: '官方插件',
+              children: [
+                {
+                text: '系统插件', 
+                link: '/zh/plugin_docs/2.1-system_plugins', 
+                },
+                {
+                  text: '域插件', 
+                  link: '/zh/plugin_docs/2.2-domain_plugins', 
+                  },
+                  {
+                    text: '域空间', 
+                    link: '/zh/plugin_docs/2.3-domain_spaces', 
+                    },
+              ],
+            },
+            {
+              text: '第三方插件',
+              children: [
+                {
+                  text: '系统插件', 
+                  link: '/zh/plugin_docs/3.1-system_plugins', 
+                  },
+                  {
+                    text: '域插件', 
+                    link: '/zh/plugin_docs/3.2-domain_plugins', 
+                    },
+                    {
+                      text: '域空间', 
+                      link: '/zh/plugin_docs/3.3-domain_spaces', 
+                      },
+              ],
+            },
+
+            {
               text: '开发',
               children: [
                 {
