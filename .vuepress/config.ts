@@ -265,6 +265,40 @@ export default defineUserConfig({
               ],
             },
             {
+              text: 'Offical Plugins',
+              children: [
+                {
+                text: 'System Plugins', 
+                link: '/en/plugin_docs/2.1-system_plugins', 
+                },
+                {
+                  text: 'Domain Plugins', 
+                  link: '/en/plugin_docs/2.2-domain_plugins', 
+                  },
+                  {
+                    text: 'Domain Spaces', 
+                    link: '/en/plugin_docs/2.3-domain_spaces', 
+                    },
+              ],
+            },
+            {
+              text: 'Third Party Plugins',
+              children: [
+                {
+                  text: 'System Plugins', 
+                  link: '/en/plugin_docs/3.1-system_plugins', 
+                  },
+                  {
+                    text: 'Domain Plugins', 
+                    link: '/en/plugin_docs/3.2-domain_plugins', 
+                    },
+                    {
+                      text: 'Domain Spaces', 
+                      link: '/en/plugin_docs/3.3-domain_spaces', 
+                      },
+              ],
+            },
+            {
               text: 'Development',
               children: [
                 {
