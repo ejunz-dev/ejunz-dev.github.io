@@ -472,8 +472,36 @@ export default defineUserConfig({
               text: '官方域',
               children: [
                 {
-                text: 'counter-strike',
+                text: 'cs2',
                 link: '/zh/domain_docs/A001',
+                },
+                {
+                text: '瓦罗兰特',
+                link: '/zh/domain_docs/A002',
+                },
+                {
+                text: '三角洲行动',
+                link: '/zh/domain_docs/A003',
+                },
+                {
+                text: 'EVE',
+                link: '/zh/domain_docs/A004',
+                },
+                {
+                text: '雅思',
+                link: '/zh/domain_docs/B001',
+                },
+                {
+                text: '天纪',
+                link: '/zh/domain_docs/Z001',
+                },
+                {
+                text: '地纪',
+                link: '/zh/domain_docs/Z002',
+                },
+                {
+                text: '人纪',
+                link: '/zh/domain_docs/Z003',
                 },
               ],
           },
