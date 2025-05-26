@@ -227,13 +227,38 @@ export default defineUserConfig({
               text: 'Official Domains',
               children: [
                 {
-                  text: 'counter-strike',
+                  text: 'Counter-Strike',
                   link: '/en/domain_docs/A001',
                 },
                 {
-                  text: 'I-Ching',
+                  text: 'Valorant',
                   link: '/en/domain_docs/A002',
                 },
+                {
+                  text: 'Delta-Force',
+                  link: '/en/domain_docs/A003',
+                },
+                {
+                  text: 'EVE',
+                  link: '/en/domain_docs/A004',
+                },
+                {
+                  text: 'ITLES',
+                  link: '/en/domain_docs/B001',
+                },
+                {
+                  text: 'Celestics',
+                  link: '/en/domain_docs/Z001',
+                },
+                {
+                  text: 'Geomantics',
+                  link: '/en/domain_docs/Z002',
+                },
+                {
+                  text: 'Anthropics',
+                  link: '/en/domain_docs/Z003',
+                },
+
               ],
             },
             {
