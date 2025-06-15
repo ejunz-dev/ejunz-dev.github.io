@@ -106,8 +106,8 @@ export default defineUserConfig({
                   link: '/en/entry/1.1-ahead',
                 },
                 {
-                  text: 'Architecture',
-                  link: '/en/entry/1.2-framework',
+                  text: 'Q&A',
+                  link: '/en/entry/1.2-QA',
                 },
               ],
             },
@@ -375,8 +375,8 @@ export default defineUserConfig({
                 link: '/zh/entry/1.1-ahead', 
                 },
                 {
-                  text: '架构', 
-                  link: '/zh/entry/1.2-framework', 
+                  text: '问答', 
+                  link: '/zh/entry/1.2-QA', 
                   },
               ],
             },
