@@ -1,0 +1,13 @@
+{
+    "title": "Ejunz",
+    "root": true,
+    "description": "Ejunz",
+    "pages": [
+        "install",
+        "system",
+        "user",
+        "FAQ",
+        "dev",
+        "plugins"
+    ]
+}
