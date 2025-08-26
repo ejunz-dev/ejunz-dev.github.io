@@ -33,10 +33,10 @@ export default function HomePage() {
             className="hover:border-fd-border-hover"
           >
             <h3 className="text-xl font-semibold mb-2">
-              EJUNZ - 多功能一站式平台
+              Ejunz - 多功能一站式平台
             </h3>
             <p className="text-fd-muted-foreground">
-              xxx,xxx,xxx,xxx,xxx
+              可部署，可扩展，可定制，可集成
             </p>
           </Link>
           <GithubInfo
@@ -44,23 +44,57 @@ export default function HomePage() {
             repo="Ejunz"
           />
         </div>
-        {/* <div className="group block p-6 rounded-lg border border-fd-border hover:shadow-lg transition-all">
+        <div className="group block p-6 rounded-lg border border-fd-border hover:shadow-lg transition-all">
           <Link
-            href="/docs/Tools"
+            href="/docs/IoT"
             className="hover:border-fd-border-hover"
           >
             <h3 className="text-xl font-semibold mb-2">
               IoT - 物联网支持
             </h3>
             <p className="text-fd-muted-foreground">
-              多平台支持、状态监控、设备管理
+              多协议支持、状态监控、设备管理
             </p>
           </Link>
           <GithubInfo
             owner="ejunz-dev"
             repo="Plugins_IoT"
           />
-        </div> */}
+        </div>
+        <div className="group block p-6 rounded-lg border border-fd-border hover:shadow-lg transition-all">
+          <Link
+            href="/docs/IELTS"
+            className="hover:border-fd-border-hover"
+          >
+            <h3 className="text-xl font-semibold mb-2">
+              IELTS - 雅思插件
+            </h3>
+            <p className="text-fd-muted-foreground">
+              思维导图，题库，训练流
+            </p>
+          </Link>
+          <GithubInfo
+            owner="ejunz-dev"
+            repo="Plugins_IELTS"
+          />
+        </div>
+        <div className="group block p-6 rounded-lg border border-fd-border hover:shadow-lg transition-all">
+          <Link
+            href="/docs/CS2"
+            className="hover:border-fd-border-hover"
+          >
+            <h3 className="text-xl font-semibold mb-2">
+              CS2 - 反恐精英插件
+            </h3>
+            <p className="text-fd-muted-foreground">
+              个人训练，团队合作，道具系统
+            </p>
+          </Link>
+          <GithubInfo
+            owner="ejunz-dev"
+            repo="Plugins_CS2"
+          />
+        </div>
       </div>
       <ImageCarousel />
 

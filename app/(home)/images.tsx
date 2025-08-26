@@ -17,7 +17,7 @@ export function ImageCarousel() {
   }, [images.length]);
 
   useEffect(() => {
-    const timer = setInterval(next, 1000);
+    const timer = setInterval(next, 2000);
     return () => clearInterval(timer);
   }, [next]);
 

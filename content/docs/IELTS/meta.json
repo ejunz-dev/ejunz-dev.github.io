@@ -1,0 +1,8 @@
+{
+    "title": "IELTS",
+    "root": true,
+    "description": "IELTS",
+    "pages": [
+        "install"
+    ]
+}

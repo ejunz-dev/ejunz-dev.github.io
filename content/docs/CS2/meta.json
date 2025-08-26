@@ -1,0 +1,8 @@
+{
+    "title": "CS2",
+    "root": true,
+    "description": "CS2",
+    "pages": [
+        "install"
+    ]
+}

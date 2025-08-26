@@ -15,7 +15,7 @@ export const baseOptions: BaseLayoutProps = {
         <Image
           width="24"
           height="24"
-          src="https://ejunz.com/favicon.svg"
+          src="/favicon.png"
           alt="Logo"
         />
         Ejunz

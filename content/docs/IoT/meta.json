@@ -1,0 +1,8 @@
+{
+    "title": "IoT",
+    "root": true,
+    "description": "IoT",
+    "pages": [
+        "install"
+    ]
+}
