@@ -38,7 +38,6 @@ export default defineUserConfig({
   host: '0.0.0.0',
   port: 3333,
   theme: hopeTheme({
-    themeColor: false,
     locales: {
       '/en/': {
         navbar: [
