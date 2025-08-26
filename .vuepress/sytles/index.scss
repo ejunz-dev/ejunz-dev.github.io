@@ -1,0 +1,11 @@
+a,
+.navbar .site-name,
+.sidebar a.active,
+.navbar-item.active,
+.navbar .router-link-active {
+  color: #ff6600 !important;
+}
+
+.navbar .active::after {
+  border-color: #ff6600 !important;
+}
