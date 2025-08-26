@@ -1,3 +1,4 @@
-$theme-color: #ff6600;
-$code-bg-color: #2e3440ff;
-$code-color: #D8DEE9;
+$theme-color: (
+  light: rgb(252, 11, 95),
+  dark: rgb(249, 126, 11),
+);
