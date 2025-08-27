@@ -20,11 +20,11 @@ export default function HomePage() {
           />
         </div>
         <h1 className="text-4xl font-bold">
-          Ejunz Development Team
+          易君 Ejunz
         </h1>
       </div>
       <p className="text-fd-muted-foreground text-lg mb-8">
-        多功能一站式平台。
+      赋万物以智，循易道而生。
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
         <div className="group block p-6 rounded-lg border border-fd-border hover:shadow-lg transition-all">
@@ -63,36 +63,36 @@ export default function HomePage() {
         </div>
         <div className="group block p-6 rounded-lg border border-fd-border hover:shadow-lg transition-all">
           <Link
-            href="/docs/IELTS"
+            href="/docs/AI"
             className="hover:border-fd-border-hover"
           >
             <h3 className="text-xl font-semibold mb-2">
-              IELTS - 雅思插件
+              AI - 人工智能支持
             </h3>
             <p className="text-fd-muted-foreground">
-              思维导图，题库，训练流
+              助手，控制，分析，指导
             </p>
           </Link>
           <GithubInfo
             owner="ejunz-dev"
-            repo="Plugins_IELTS"
+            repo="Plugins_AI"
           />
         </div>
         <div className="group block p-6 rounded-lg border border-fd-border hover:shadow-lg transition-all">
           <Link
-            href="/docs/CS2"
+            href="/docs/KB"
             className="hover:border-fd-border-hover"
           >
             <h3 className="text-xl font-semibold mb-2">
-              CS2 - 反恐精英插件
+              KB - 知识库支持
             </h3>
             <p className="text-fd-muted-foreground">
-              个人训练，团队合作，道具系统
+              文件，笔记，协作，训练
             </p>
           </Link>
           <GithubInfo
             owner="ejunz-dev"
-            repo="Plugins_CS2"
+            repo="Plugins_KB"
           />
         </div>
       </div>
@@ -161,7 +161,7 @@ export default function HomePage() {
 
       <div className="flex flex-col items-center text-center max-w-2xl mx-auto">
         <p className="text-fd-muted-foreground text-lg mb-8">
-          <span className="text-red-500">❤</span> EJUNZ 由开源社区驱动。
+          <span className="text-red-500">❤</span> 易君 Ejunz 由开源社区驱动。
         </p>
         <div className="flex flex-wrap justify-center gap-2 mb-4">
           {contributors.map((username) => (
