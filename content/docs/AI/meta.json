@@ -1,8 +1,3 @@
 {
-    "title": "AI",
-    "root": true,
-    "description": "AI",
-    "pages": [
-        "install"
-    ]
+    "root": true
 }
