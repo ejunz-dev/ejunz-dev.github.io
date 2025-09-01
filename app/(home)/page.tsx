@@ -50,15 +50,15 @@ export default function HomePage() {
             className="hover:border-fd-border-hover"
           >
             <h3 className="text-xl font-semibold mb-2">
-              IoT - 物联网支持
+              IoT - 物联网部署
             </h3>
             <p className="text-fd-muted-foreground">
-              多协议支持、状态监控、设备管理
+              服务端，客户端，设备管理，消息系统
             </p>
           </Link>
           <GithubInfo
             owner="ejunz-dev"
-            repo="Plugins_IoT"
+            repo="IoT"
           />
         </div>
         <div className="group block p-6 rounded-lg border border-fd-border hover:shadow-lg transition-all">
@@ -67,7 +67,7 @@ export default function HomePage() {
             className="hover:border-fd-border-hover"
           >
             <h3 className="text-xl font-semibold mb-2">
-              AI - 人工智能支持
+              AI - 人工智能部署
             </h3>
             <p className="text-fd-muted-foreground">
               助手，控制，分析，指导
@@ -75,7 +75,7 @@ export default function HomePage() {
           </Link>
           <GithubInfo
             owner="ejunz-dev"
-            repo="Plugins_AI"
+            repo="AI"
           />
         </div>
         <div className="group block p-6 rounded-lg border border-fd-border hover:shadow-lg transition-all">
@@ -84,7 +84,7 @@ export default function HomePage() {
             className="hover:border-fd-border-hover"
           >
             <h3 className="text-xl font-semibold mb-2">
-              KB - 知识库支持
+              KB - 知识库部署
             </h3>
             <p className="text-fd-muted-foreground">
               文件，笔记，协作，训练
@@ -92,7 +92,7 @@ export default function HomePage() {
           </Link>
           <GithubInfo
             owner="ejunz-dev"
-            repo="Plugins_KB"
+            repo="KB"
           />
         </div>
       </div>
